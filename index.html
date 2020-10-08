@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Liquid Legal Institute</title>
-    <link rel="stylesheet" href="/public/main.css">
-    <link rel="stylesheet" href="/public/additional.css">
+    <link rel="stylesheet" href="public/main.css">
+    <link rel="stylesheet" href="public/additional.css">
 </head>
 <body class="dark:bg-gray-900 w-full h-full">
 <!-- Github banner from https://github.com/tholman/github-corners -->
@@ -20,10 +20,9 @@
     </svg>
 </a>
 
-<div class="relative z-10 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:pb-24 xl:pb-32">
+<div class="relative z-10 pb-8 sm:pb-16 md:pb-20 w-full lg:pb-24 xl:pb-32">
     <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
-        <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start">
-            <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+        <nav class="relative flex items-center sm:h-10 lg:justify-start">
                 <div class="flex items-center justify-between w-full md:w-auto">
                     <a href="#" aria-label="Home">
                         <img class="h-8 w-auto sm:h-10"
@@ -39,7 +38,6 @@
                                       d="M4 6h16M4 12h16M4 18h16"/>
                             </svg>
                         </button>
-                    </div>
                 </div>
             </div>
             <div class="hidden md:block md:ml-10 md:pr-4">
@@ -57,57 +55,16 @@
             </div>
         </nav>
     </div>
-    <!-- Mobile nav -->
-    <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden bg-white dark:bg-gray-900">
-        <div class="rounded-lg shadow-md">
-            <div class="rounded-lg shadow-xs overflow-hidden" role="menu" aria-orientation="vertical"
-                 aria-labelledby="main-menu">
-                <div class="px-5 pt-4 flex items-center justify-between">
-                    <div>
-                        <img class="h-8 w-auto"
-                             src="https://www.liquid-legal-institute.com/wp-content/uploads/2020/05/icon-common-legal-platform.png"
-                             alt="">
-                    </div>
-                    <div class="-mr-2">
-                        <button type="button"
-                                class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
-                                aria-label="Close menu">
-                            <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M6 18L18 6M6 6l12 12"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div class="px-2 pt-2 pb-3">
-                    <a href="#principles"
-                       class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:bg-gray-900 dark:text-gray-500 dark:hover:text-gray-100 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                       role="menuitem">Principles</a>
-                    <a href="#community"
-                       class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:bg-gray-900 dark:text-gray-500 dark:hover:text-gray-100 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                       role="menuitem">Community</a>
-                    <a href="https://github.com/Liquid-Legal-Institute" target="_blank"
-                       class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:bg-gray-900 dark:text-gray-500 dark:hover:text-gray-100 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                       role="menuitem">Github</a>
-                    <a href="https://www.liquid-legal-institute.com" target="_blank"
-                       class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 dark:hover:bg-gray-900 dark:text-gray-500 dark:hover:text-gray-100 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                       role="menuitem">
-                        The LLI
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 <div class="pt-12 pb-24">
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center">
+        <div class="text-center">
             <p class="text-base leading-6 text-red-600 font-semibold tracking-wide uppercase">Develop together!
             </p>
-            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-10">
+            <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl">
                 Explore the LLI Github Ecosystem
             </h3>
-            <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
                 The Liquid Legal Institute is THE open platform for leading professionals, offering new perspectives on
                 the accelerating transformation of inhouse legal departments, law firms and the legal system. LLI
                 started with an interdisciplinary and open minded group of experts that identified factors for a
@@ -116,7 +73,7 @@
         </div>
 
         <div class="mt-10">
-            <ul class="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+            <ul class="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
                 <li>
                     <div class="flex">
                         <div class="flex-shrink-0">
@@ -139,7 +96,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="mt-10 md:mt-0">
+                <li class="mt-8 lg:mt-0">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
@@ -163,7 +120,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="mt-10 md:mt-0">
+                <li class="mt-8 lg:mt-0">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
@@ -182,7 +139,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="mt-10 md:mt-0">
+                <li class="mt-8 lg:mt-0">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
@@ -221,32 +178,31 @@
         <div class="w-1/2 mt-10">
             <div class="grid grid-cols-2 gap-1">
                 <div class="flex items-end justify-end flex-col">
-                    <div class="shadow rounded w-56 h-56 bg-blue-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
+                    <div class="shadow rounded w-56 h-56 sm:w-40 sm:h-40 bg-blue-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
                          onmouseover="setText('a')">
                         Vision
                     </div>
                 </div>
                 <div class="flex items-begin justify-end flex-col">
-                    <div class="shadow rounded w-56 h-56 bg-green-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
+                    <div class="shadow rounded w-56 h-56 sm:w-40 sm:h-40 bg-green-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
                          onmouseover="setText('b')">
                         Implementation
                     </div>
                 </div>
                 <div class="flex items-end justify-start flex-col">
-                    <div class="shadow rounded w-56 h-56 bg-red-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
+                    <div class="shadow rounded w-56 h-56 sm:w-40 sm:h-40 bg-red-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
                          onmouseover="setText('c')">
                         Neutrality
                     </div>
                 </div>
                 <div class="flex items-begin justify-start flex-col">
-                    <div class="shadow border-1 border-black rounded w-56 h-56 bg-purple-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
+                    <div class="shadow border-1 border-black rounded w-56 h-56 sm:w-40 sm:h-40 bg-purple-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
                          onmouseover="setText('d')">
                         Governance
                     </div>
                 </div>
             </div>
         </div>
-        <svg id="asdasd"></svg>
         <div class="w-1/2 mt-16">
             <div class="text-xl leading-7 text-gray-500 px-16" id="projectdescription">
             </div>
@@ -254,27 +210,9 @@
     </div>
 </div>
 
-<!--
-<div class="w-full mb-24">
-    <div class="text-center mb-10">
-        <p class="text-base leading-6 text-red-600 font-semibold tracking-wide uppercase">
-            Join us
-        </p>
-        <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-10">
-            The projects
-        </h3>
-    </div>
-    <div class="mx-auto">
-        <div>
-            asdasd
-        </div>
-    </div>
-</div>
--->
-
 <div class="pt-12 pb-24">
-    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="lg:text-center" id="community">
+    <div class="max-w-screen-xl lg:mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center" id="community">
             <p class="text-base leading-6 text-red-600 font-semibold tracking-wide uppercase">Get in touch!
             </p>
             <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-gray-200 sm:text-4xl sm:leading-10">
@@ -283,8 +221,8 @@
         </div>
 
         <div class="mt-10">
-            <ul class="md:flex md:flex-row md:flex-wrap">
-                <li class="w-1/2 p-8">
+            <ul class="lg:flex lg:flex-row lg:flex-wrap">
+                <li class="lg:w-1/2 lg:p-8">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
@@ -306,7 +244,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="mt-10 md:mt-0 w-1/2  p-8">
+                <li class="mt-10 mt-8 lg:mt-0 lg:w-1/2 lg:p-8">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
@@ -328,7 +266,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="mt-10 md:mt-0 w-1/2 mx-auto  p-8">
+                <li class="mt-8 lg:mt-0 lg:w-1/2 mx-auto lg:p-8">
                     <div class="flex">
                         <div class="flex-shrink-0">
                             <div class="flex items-center justify-center h-12 w-12 rounded-md bg-red-500 text-white">
