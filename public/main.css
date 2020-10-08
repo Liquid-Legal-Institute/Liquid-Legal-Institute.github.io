@@ -997,6 +997,12 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:text-white {
+    --text-opacity: 1;
+    color: #ffffff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+  }
+
   .dark\:text-gray-200 {
     --text-opacity: 1;
     color: #e5e7eb;
