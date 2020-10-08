@@ -812,11 +812,6 @@ video {
   line-height: 2rem;
 }
 
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -875,6 +870,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
 }
@@ -885,10 +885,6 @@ video {
 
 .pt-12 {
   padding-top: 3rem;
-}
-
-.pr-16 {
-  padding-right: 4rem;
 }
 
 .pb-24 {
@@ -1199,6 +1195,10 @@ video {
 
   .md\:pr-4 {
     padding-right: 1rem;
+  }
+
+  .md\:pr-16 {
+    padding-right: 4rem;
   }
 
   .md\:pb-20 {
