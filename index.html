@@ -6,10 +6,13 @@
     <link rel="stylesheet" href="public/main.css">
     <link rel="stylesheet" href="public/additional.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon-150x150.png" sizes="32x32">
-    <link rel="icon" href="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon.png" sizes="192x192">
+    <link rel="icon" href="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon-150x150.png"
+          sizes="32x32">
+    <link rel="icon" href="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon.png"
+          sizes="192x192">
     <link rel="apple-touch-icon" href="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon.png">
-    <meta name="msapplication-TileImage" content="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon.png">
+    <meta name="msapplication-TileImage"
+          content="https://www.liquid-legal-institute.com/wp-content/uploads/2020/06/favicon.png">
 </head>
 <body class="dark:bg-gray-900 w-full h-full">
 <!-- Github banner from https://github.com/tholman/github-corners -->
@@ -61,7 +64,9 @@
                 Explore the CLP Ecosystem
             </h3>
             <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
-                The Liquid Legal Institute is THE open platform for leading professionals, offering new perspectives on the transformation of legal departments, law firms and the legal system. The LLI is an interdisciplinary and open minded think tank contributing to a successful digital transformation.
+                The Liquid Legal Institute is THE open platform for leading professionals, offering new perspectives on
+                the transformation of legal departments, law firms and the legal system. The LLI is an interdisciplinary
+                and open minded think tank contributing to a successful digital transformation.
             </p>
         </div>
 
@@ -172,25 +177,25 @@
             <div class="grid grid-cols-2 gap-1">
                 <div class="flex items-end justify-end flex-col">
                     <div class="shadow rounded lg:w-56 lg:h-56 w-40 h-40 bg-blue-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
-                         onmouseover="setText('a')">
+                         onmouseover="setPrincipleDescription('a')">
                         Vision
                     </div>
                 </div>
                 <div class="flex items-begin justify-end flex-col">
                     <div class="shadow rounded lg:w-56 lg:h-56 w-40 h-40 bg-green-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
-                         onmouseover="setText('b')">
+                         onmouseover="setPrincipleDescription('b')">
                         Implementation
                     </div>
                 </div>
                 <div class="flex items-end justify-start flex-col">
                     <div class="shadow rounded lg:w-56 lg:h-56 w-40 h-40 bg-red-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
-                         onmouseover="setText('c')">
+                         onmouseover="setPrincipleDescription('c')">
                         Neutrality
                     </div>
                 </div>
                 <div class="flex items-begin justify-start flex-col">
                     <div class="shadow border-1 border-black rounded lg:w-56 lg:h-56 w-40 h-40 bg-purple-500 flex items-center justify-center text-2xl hover-feedback tracking-tight font-light"
-                         onmouseover="setText('d')">
+                         onmouseover="setPrincipleDescription('d')">
                         Governance
                     </div>
                 </div>
@@ -437,28 +442,26 @@
         return `<div class='flex flex-row items-center mt-4'><div class="dark:text-white"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width='20' height='20' class='mr-2' fill="currentColor"><title>GitHub icon</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></div><a href="${link}" class="text-red-500">Explore on Github</a></div>`
     }
     texts = {
-        "a": "The main idea about the Common Legal Platform is to think ahead in standardizing the legal industry. The Common Legal Platform aims at simplifying legal content, facilitating legal transactions and decreasing the complexity of legal tasks and ultimately making them faster, cheaper, and more efficient. <br>The Common Legal Platform provides a place to host concrete assets, such as commonly accepted documents. Collaborating companies and legal departments will be more efficient as they can benefit from the resources created by them, refined by other experts, and accepted by the community." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform"),
-        "b": "The CLP is intended to serve as a place for co-operation, interaction and exchange – not only among people, but also among IT systems and between people and IT systems. For such co-operation, interaction and exchange in a decentralized network, connecting structural elements and technical standards. <br>Regarding the connecting structural elements and the technical standards, the following principles should apply." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#b-setting-up-the-structure-and-the-technical-standards-of-the-common-legal-platform"),
-        "c": "The nature of the CLP requires that the CLP is in the interest of all. To ensure that this is the case, a system of clear defined rules and values is required that describes right actions and is valid for all participants. The fundamental rules and values shall be as follows." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#c-ensure-that-the-use-of-the-common-legal-platform-is-in-the-interest-of-all"),
-        "d": "To ensure that the CLP is in the interest of all, it also requires a governance structure that is aligned to the objective of neutrality, openness, and to form a trusted environment that supports innovations and new ideas." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#d-establishing-a-governance-structure-for-administrating-the-common-legal-platform")
+        "a": {
+            title: "Vision",
+            description: "The main idea about the Common Legal Platform is to think ahead in standardizing the legal industry. The Common Legal Platform aims at simplifying legal content, facilitating legal transactions and decreasing the complexity of legal tasks and ultimately making them faster, cheaper, and more efficient. <br>The Common Legal Platform provides a place to host concrete assets, such as commonly accepted documents. Collaborating companies and legal departments will be more efficient as they can benefit from the resources created by them, refined by other experts, and accepted by the community." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform")
+        },
+        "b": {
+            title: "Implementation",
+            description: "The CLP is intended to serve as a place for co-operation, interaction and exchange – not only among people, but also among IT systems and between people and IT systems. For such co-operation, interaction and exchange in a decentralized network, connecting structural elements and technical standards. <br>Regarding the connecting structural elements and the technical standards, the following principles should apply." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#b-setting-up-the-structure-and-the-technical-standards-of-the-common-legal-platform")
+        },
+        "c": {
+            title: "Neutrality",
+            description: "The nature of the CLP requires that the CLP is in the interest of all. To ensure that this is the case, a system of clear defined rules and values is required that describes right actions and is valid for all participants. The fundamental rules and values shall be as follows." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#c-ensure-that-the-use-of-the-common-legal-platform-is-in-the-interest-of-all")
+        },
+        "d": {
+            title: "Governance",
+            description: "To ensure that the CLP is in the interest of all, it also requires a governance structure that is aligned to the objective of neutrality, openness, and to form a trusted environment that supports innovations and new ideas." + githubSVG("https://github.com/Liquid-Legal-Institute/Common-Legal-Platform/blob/main/Principles.md#d-establishing-a-governance-structure-for-administrating-the-common-legal-platform")
+        }
     }
 
-
-    window.onload = function () {
-        document.getElementById("projectdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">Vision</p>${texts["a"]}`
-        document.getElementById("layerdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">Vision</p>${texts["a"]}`
-    }
-
-
-    var projects = {
-        "a": "Vision",
-        "b": "Implementation",
-        "c": "Neutrality",
-        "d": "Governance"
-    };
-
-    function setText(a) {
-        document.getElementById("projectdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">${projects[a]}</p>${texts[a]}`
+    function setPrincipleDescription(a) {
+        document.getElementById("projectdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">${texts[a].title}</p>${texts[a].description}`
     }
 
 
@@ -485,14 +488,9 @@
         document.getElementById("layerdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">${layers[a].title}</p>${layers[a].description}`
     }
 
-
-    icons = {
-        "a": "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z\" />",
-        "b": "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z\" />",
-        "c": "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z\" />",
-        "d": "<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z\" />"
+    window.onload = function () {
+        document.getElementById("projectdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">Principles of the CLP</p>Hover over a principle to get more information, and a link to more content on GitHub`
+        document.getElementById("layerdescription").innerHTML = `<p class="text-2xl leading-8 tracking-tight text-gray-800 mb-2 font-bold dark:text-gray-200">Layers of the CLP</p>Hover over a layer to get more information, and a link to more content on GitHub`
     }
-
-
 </script>
 </html>
