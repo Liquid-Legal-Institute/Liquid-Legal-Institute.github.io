@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-position: left bottom;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -12,6 +13,7 @@ body {
         background-size: cover;
         background-position: left bottom;
         background-repeat: no-repeat;
+        background-attachment: fixed;
     }
 }
 
