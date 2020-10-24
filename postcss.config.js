@@ -7,14 +7,7 @@ module.exports = {
         require("tailwindcss"),
         require("autoprefixer"),
         require("postcss-nested"),
-        ...(isProduction ? [require("@fullhuman/postcss-purgecss")({
-            content: [
-                "*.html",
-            ],
-
-            // Include any special characters you're using in this regular expression
-            defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-        }), require('cssnano')({
+        ...(isProduction ? [require('cssnano')({
             preset: 'default',
         })] : []),
     ],
