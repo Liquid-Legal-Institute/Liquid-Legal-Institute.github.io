@@ -1,5 +1,8 @@
 module.exports = {
   purge: ["*.html"],
+  variants: {
+    dark: ['display'],
+  },
   experimental: {
     darkModeVariant: true,
     uniformColorPalette: true,
