@@ -8,6 +8,18 @@ body {
 
 
 @media (prefers-color-scheme: dark) {
+   .dark\:hidden {
+       display: none;
+   }
+}
+
+@media (prefers-color-scheme: light) {
+    .light\:hidden {
+        display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
     body {
         background-image: url(lli_logo_dark.svg);
         background-size: cover;
