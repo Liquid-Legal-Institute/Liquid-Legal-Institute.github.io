@@ -1,28 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="462px" height="398px" viewBox="0 0 462 398" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Government 2</title>
-    <g id="Government" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter id="filter-4">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Government-dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="CLP_gov" transform="translate(-3.000000, 0.000000)">
             <rect id="Rectangle" fill="#9061F9" x="56" y="357" width="356" height="21"></rect>
             <rect id="Rectangle" fill="#0E9F6E" x="56" y="327" width="356" height="21"></rect>
             <rect id="Rectangle" fill="#3F83F8" x="56" y="297" width="356" height="21"></rect>
             <rect id="Rectangle" fill="#F05252" x="56" y="267" width="356" height="21"></rect>
-            <text id="Technology-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+            <text id="Technology-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
                 <tspan x="185" y="371">Technology Layer</tspan>
             </text>
-            <text id="Data-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+            <text id="Data-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
                 <tspan x="203" y="341">Data Layer</tspan>
             </text>
-            <text id="Application-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+            <text id="Application-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
                 <tspan x="186" y="311">Application Layer</tspan>
             </text>
-            <text id="Utilization-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#000000">
+            <text id="Utilization-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="189" y="281">Utilization Layer</tspan>
+            </text>
+            <rect id="Rectangle" fill="#9061F9" x="56" y="357" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#0E9F6E" x="56" y="327" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#3F83F8" x="56" y="297" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#F05252" x="56" y="267" width="356" height="21"></rect>
+            <text id="Technology-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="185" y="371">Technology Layer</tspan>
+            </text>
+            <text id="Data-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="203" y="341">Data Layer</tspan>
+            </text>
+            <text id="Application-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="186" y="311">Application Layer</tspan>
+            </text>
+            <text id="Utilization-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="189" y="281">Utilization Layer</tspan>
+            </text>
+            <rect id="Rectangle" fill="#9061F9" x="56" y="357" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#0E9F6E" x="56" y="327" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#3F83F8" x="56" y="297" width="356" height="21"></rect>
+            <rect id="Rectangle" fill="#F05252" x="56" y="267" width="356" height="21"></rect>
+            <text id="Technology-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="185" y="371">Technology Layer</tspan>
+            </text>
+            <text id="Data-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="203" y="341">Data Layer</tspan>
+            </text>
+            <text id="Application-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
+                <tspan x="186" y="311">Application Layer</tspan>
+            </text>
+            <text id="Utilization-Layer" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
                 <tspan x="189" y="281">Utilization Layer</tspan>
             </text>
         </g>
-        <image id="Bitmap" x="197" y="23" width="67" height="64" xlink:href="data:image/png;base64,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"></image>
         <rect id="Rectangle" stroke="#FFFFFF" x="0.5" y="0.5" width="461" height="397"></rect>
-        <text font-family="Helvetica" font-size="16" font-weight="normal" fill="#FFFFFF">
+        <text id="Government" font-family="Helvetica" font-size="16" font-weight="normal" fill="#FFFFFF">
             <tspan x="9" y="18">Government</tspan>
         </text>
         <text id="Legis--lation" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
@@ -43,7 +88,7 @@
         <line x1="274.5" y1="121.5" x2="390.5" y2="121.5" id="Line-4" stroke="#FFFFFF" stroke-linecap="square"></line>
         <path id="Line-2" d="M390.5,198.5 L395,207.5 L390.999,207.499 L391,220 L390,220 L389.999,207.499 L386,207.5 L390.5,198.5 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
         <text id="Courts" font-family="Helvetica" font-size="12" font-weight="normal" fill="#FFFFFF">
-            <tspan x="111" y="159">Courts</tspan>
+            <tspan x="177" y="180">Courts</tspan>
         </text>
         <text id="…" font-family="Helvetica" font-size="16" font-weight="normal" fill="#FFFFFF">
             <tspan x="223" y="183">…</tspan>
@@ -65,8 +110,42 @@
         </text>
         <path id="Line-3" d="M231.5,87 L236,96 L232,96 L232,110 L231,110 L231,96 L227,96 L231.5,87 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
         <path id="Line-5" d="M231,219 L231,232 L235,232 L230.5,241 L226,232 L230,232 L230,219 L231,219 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-        <image id="clipart1404235" x="372" y="154" width="37" height="43" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAArCAYAAAD/lEFzAAAABGdBTUEAALGOfPtRkwAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJaADAAQAAAABAAAAKwAAAAAv+L9uAAADiUlEQVRYCe2YS2xNURSGe9WbekXEMxKPxDuEiYSBmAgREWZiYGRqbGDUEYnEzFxiwlAYSgwMTIwQbVGtpISgtNqivb7v5Oxr31d77+25LUlX8t/9Wnvt/6y9zlkrN9eSgeTz+W2YuQJ2gBXgHXgNukAfuJ/L5Xppa5LZNWlNrDQLlSVgOdiQ4iBtkFN0aialsSxlThVj+SrzFaez8lQO62PgEdgIvEIxF7SCUVCzZEnqF6eeB5LzBhaBNcArfQlqlixJJR4hoCWlZ76mqJlMUMwqpr5h8HlKKNhuuDUWGhI+A5vYuAVsBeuBb99H0AM6QCckP9A2VyDSCo6Du6AbVJMxFp6Bm2Bf01hhfDe4A0ZBPTKA8jVg0GcnGDwH3oPJyFM2xx/Uxgli6BIYmQybaK8PdqxxNuzEwBmQFaHA7S2dPQ0RY+N2MF4wh0MaaR+yaUFdxNjgW3YLNFMu1EvKN22wmYywbeCbH8uk2hfdHLawTDvbib2YO1rJZBkp2Ft+HKmk3IS5k5VslpFCybSxuZJyE+b244SygK9UJXzm8OtgHqirOKuTtA4xV/4u3VdIyDA+wGI7GALDoJmEMJ+IxKy7voPLJPBu2pbYU74Jh8AIsGCTsMTcGJe51ko+XVi3jortuNeaKqy7Nw6Tn4xj8Ua+AMklEntqPjMrgSWIMSUh132KrnRM07IWrE7HErI86QWK+u5dCgKxN/Q9VFF/Z9qq6wNoexB8wlOOy4VrPAF+AL9Ttg+AxhKh357Om/2HwY1obRbje2AIuO7+09F6G+M+oG3RAyRZJLHbw4LujN8Iv1fqeW2KHo3X47566qsTRHtBXF8MwjfQUIlDI9GL7zqZ4Kc0wLMee61B4n6YKwrAwuR0dyp5aro5zXiq5huYub5aXfXfeKqQetInKyU+0Xo9+uqW2itKpMG7Vgj96cAN/k8QvuZOm6ec88Nn+hkAQdRzb1j3UO0FMZGbB4M9+6UJ+i9LcpD/JS0DISHTTdY9IE7I6xibkAOp8RKypF4B/4FRfIhdaetYkp3AB+0nITsu8tRhxrfBRKWLG31SvWgK8qA4h5rpJRzWq5Uu7lVHZ+jds+AFKDJmYl3l5DRIG2dKLpHSoAzzU93qtULij93+hIWLIAThVBHzCi3Bja1EcgT4VXpenXFQ9iYkWlPzY93lzXVISpZxUTY1FKqf8tjr6wDW1P+K9P4BxQiTzHsBYmUAAAAASUVORK5CYII="></image>
-        <image id="clipart1404235" x="133" y="154" width="37" height="43" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAArCAYAAAD/lEFzAAAABGdBTUEAALGOfPtRkwAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAJaADAAQAAAABAAAAKwAAAAAv+L9uAAADiUlEQVRYCe2YS2xNURSGe9WbekXEMxKPxDuEiYSBmAgREWZiYGRqbGDUEYnEzFxiwlAYSgwMTIwQbVGtpISgtNqivb7v5Oxr31d77+25LUlX8t/9Wnvt/6y9zlkrN9eSgeTz+W2YuQJ2gBXgHXgNukAfuJ/L5Xppa5LZNWlNrDQLlSVgOdiQ4iBtkFN0aialsSxlThVj+SrzFaez8lQO62PgEdgIvEIxF7SCUVCzZEnqF6eeB5LzBhaBNcArfQlqlixJJR4hoCWlZ76mqJlMUMwqpr5h8HlKKNhuuDUWGhI+A5vYuAVsBeuBb99H0AM6QCckP9A2VyDSCo6Du6AbVJMxFp6Bm2Bf01hhfDe4A0ZBPTKA8jVg0GcnGDwH3oPJyFM2xx/Uxgli6BIYmQybaK8PdqxxNuzEwBmQFaHA7S2dPQ0RY+N2MF4wh0MaaR+yaUFdxNjgW3YLNFMu1EvKN22wmYywbeCbH8uk2hfdHLawTDvbib2YO1rJZBkp2Ft+HKmk3IS5k5VslpFCybSxuZJyE+b244SygK9UJXzm8OtgHqirOKuTtA4xV/4u3VdIyDA+wGI7GALDoJmEMJ+IxKy7voPLJPBu2pbYU74Jh8AIsGCTsMTcGJe51ko+XVi3jortuNeaKqy7Nw6Tn4xj8Ua+AMklEntqPjMrgSWIMSUh132KrnRM07IWrE7HErI86QWK+u5dCgKxN/Q9VFF/Z9qq6wNoexB8wlOOy4VrPAF+AL9Ttg+AxhKh357Om/2HwY1obRbje2AIuO7+09F6G+M+oG3RAyRZJLHbw4LujN8Iv1fqeW2KHo3X47566qsTRHtBXF8MwjfQUIlDI9GL7zqZ4Kc0wLMee61B4n6YKwrAwuR0dyp5aro5zXiq5huYub5aXfXfeKqQetInKyU+0Xo9+uqW2itKpMG7Vgj96cAN/k8QvuZOm6ec88Nn+hkAQdRzb1j3UO0FMZGbB4M9+6UJ+i9LcpD/JS0DISHTTdY9IE7I6xibkAOp8RKypF4B/4FRfIhdaetYkp3AB+0nITsu8tRhxrfBRKWLG31SvWgK8qA4h5rpJRzWq5Uu7lVHZ+jds+AFKDJmYl3l5DRIG2dKLpHSoAzzU93qtULij93+hIWLIAThVBHzCi3Bja1EcgT4VXpenXFQ9iYkWlPzY93lzXVISpZxUTY1FKqf8tjr6wDW1P+K9P4BxQiTzHsBYmUAAAAASUVORK5CYII="></image>
-        <image id="clipart1404235" x="54" y="154" width="37" height="43" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAArCAYAAAD/lEFzAAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAJaADAAQAAAABAAAAKwAAAAAMMJ1UAAADiUlEQVRYCe2YS2xNURSGe9WbekXEMxKPxDuEiYSBmAgREWZiYGRqbGDUEYnEzFxiwlAYSgwMTIwQbVGtpISgtNqivb7v5Oxr31d77+25LUlX8t/9Wnvt/6y9zlkrN9eSgeTz+W2YuQJ2gBXgHXgNukAfuJ/L5Xppa5LZNWlNrDQLlSVgOdiQ4iBtkFN0aialsSxlThVj+SrzFaez8lQO62PgEdgIvEIxF7SCUVCzZEnqF6eeB5LzBhaBNcArfQlqlixJJR4hoCWlZ76mqJlMUMwqpr5h8HlKKNhuuDUWGhI+A5vYuAVsBeuBb99H0AM6QCckP9A2VyDSCo6Du6AbVJMxFp6Bm2Bf01hhfDe4A0ZBPTKA8jVg0GcnGDwH3oPJyFM2xx/Uxgli6BIYmQybaK8PdqxxNuzEwBmQFaHA7S2dPQ0RY+N2MF4wh0MaaR+yaUFdxNjgW3YLNFMu1EvKN22wmYywbeCbH8uk2hfdHLawTDvbib2YO1rJZBkp2Ft+HKmk3IS5k5VslpFCybSxuZJyE+b244SygK9UJXzm8OtgHqirOKuTtA4xV/4u3VdIyDA+wGI7GALDoJmEMJ+IxKy7voPLJPBu2pbYU74Jh8AIsGCTsMTcGJe51ko+XVi3jortuNeaKqy7Nw6Tn4xj8Ua+AMklEntqPjMrgSWIMSUh132KrnRM07IWrE7HErI86QWK+u5dCgKxN/Q9VFF/Z9qq6wNoexB8wlOOy4VrPAF+AL9Ttg+AxhKh357Om/2HwY1obRbje2AIuO7+09F6G+M+oG3RAyRZJLHbw4LujN8Iv1fqeW2KHo3X47566qsTRHtBXF8MwjfQUIlDI9GL7zqZ4Kc0wLMee61B4n6YKwrAwuR0dyp5aro5zXiq5huYub5aXfXfeKqQetInKyU+0Xo9+uqW2itKpMG7Vgj96cAN/k8QvuZOm6ec88Nn+hkAQdRzb1j3UO0FMZGbB4M9+6UJ+i9LcpD/JS0DISHTTdY9IE7I6xibkAOp8RKypF4B/4FRfIhdaetYkp3AB+0nITsu8tRhxrfBRKWLG31SvWgK8qA4h5rpJRzWq5Uu7lVHZ+jds+AFKDJmYl3l5DRIG2dKLpHSoAzzU93qtULij93+hIWLIAThVBHzCi3Bja1EcgT4VXpenXFQ9iYkWlPzY93lzXVISpZxUTY1FKqf8tjr6wDW1P+K9P4BxQiTzHsBYmUAAAAASUVORK5CYII="></image>
+        <g filter="url(#filter-1)" id="Government_icon_(black)">
+            <g transform="translate(130.000000, 155.000000)">
+                <path d="M7.40991356,14.2833596 L10.9156942,14.2833596 L11.454657,33.0725148 L6.9382002,33.0725148 L7.40991367,14.2833596 L7.40991367,14.2833596 L7.40991356,14.2833596 Z M4.10582377,33.7478187 L38.894241,33.7478187 L38.894241,36.1652952 L40.9786442,36.1652952 L40.9785197,38.582775 L43,38.582775 L43,41 L0,40.9998088 L0,38.582775 L2.02148119,38.582775 L2.02148119,36.1652952 L4.10575989,36.1652952 L4.10575989,33.7478187 L4.10582388,33.7478187 L4.10582377,33.7478187 Z M40.7085593,9.03731711 L21.4996481,0 L2.29042283,9.03731711 L2.29042283,10.5147717 L40.7085593,10.5148974 L40.7085593,9.03731711 L40.7085593,9.03731711 L40.7085593,9.03731711 Z M5.99369418,11.1907696 L37.0064984,11.1907696 L37.0064984,13.6078051 L5.99369418,13.6078051 L5.99369418,11.1907696 Z M32.0168014,14.2834251 L35.5225786,14.2834251 L36.061671,33.0725786 L31.5452782,33.0723874 L32.0168014,14.2834251 Z M23.8145068,14.2833597 L27.3202857,14.2835508 L27.8593747,33.0725149 L23.3427901,33.0725149 L23.8145068,14.2833597 L23.8145068,14.2833597 Z M15.6122089,14.2834251 L19.1178616,14.2832323 L19.6572115,33.0723874 L15.1404972,33.0723874 L15.6122089,14.2834251 Z" id="path10" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-2)" id="Government_icon_(black)">
+            <g transform="translate(51.000000, 155.000000)">
+                <path d="M7.40991356,14.2833596 L10.9156942,14.2833596 L11.454657,33.0725148 L6.9382002,33.0725148 L7.40991367,14.2833596 L7.40991367,14.2833596 L7.40991356,14.2833596 Z M4.10582377,33.7478187 L38.894241,33.7478187 L38.894241,36.1652952 L40.9786442,36.1652952 L40.9785197,38.582775 L43,38.582775 L43,41 L0,40.9998088 L0,38.582775 L2.02148119,38.582775 L2.02148119,36.1652952 L4.10575989,36.1652952 L4.10575989,33.7478187 L4.10582388,33.7478187 L4.10582377,33.7478187 Z M40.7085593,9.03731711 L21.4996481,0 L2.29042283,9.03731711 L2.29042283,10.5147717 L40.7085593,10.5148974 L40.7085593,9.03731711 L40.7085593,9.03731711 L40.7085593,9.03731711 Z M5.99369418,11.1907696 L37.0064984,11.1907696 L37.0064984,13.6078051 L5.99369418,13.6078051 L5.99369418,11.1907696 Z M32.0168014,14.2834251 L35.5225786,14.2834251 L36.061671,33.0725786 L31.5452782,33.0723874 L32.0168014,14.2834251 Z M23.8145068,14.2833597 L27.3202857,14.2835508 L27.8593747,33.0725149 L23.3427901,33.0725149 L23.8145068,14.2833597 L23.8145068,14.2833597 Z M15.6122089,14.2834251 L19.1178616,14.2832323 L19.6572115,33.0723874 L15.1404972,33.0723874 L15.6122089,14.2834251 Z" id="path10" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-3)" id="Government_icon_(black)">
+            <g transform="translate(369.000000, 155.000000)">
+                <path d="M7.40991356,14.2833596 L10.9156942,14.2833596 L11.454657,33.0725148 L6.9382002,33.0725148 L7.40991367,14.2833596 L7.40991367,14.2833596 L7.40991356,14.2833596 Z M4.10582377,33.7478187 L38.894241,33.7478187 L38.894241,36.1652952 L40.9786442,36.1652952 L40.9785197,38.582775 L43,38.582775 L43,41 L0,40.9998088 L0,38.582775 L2.02148119,38.582775 L2.02148119,36.1652952 L4.10575989,36.1652952 L4.10575989,33.7478187 L4.10582388,33.7478187 L4.10582377,33.7478187 Z M40.7085593,9.03731711 L21.4996481,0 L2.29042283,9.03731711 L2.29042283,10.5147717 L40.7085593,10.5148974 L40.7085593,9.03731711 L40.7085593,9.03731711 L40.7085593,9.03731711 Z M5.99369418,11.1907696 L37.0064984,11.1907696 L37.0064984,13.6078051 L5.99369418,13.6078051 L5.99369418,11.1907696 Z M32.0168014,14.2834251 L35.5225786,14.2834251 L36.061671,33.0725786 L31.5452782,33.0723874 L32.0168014,14.2834251 Z M23.8145068,14.2833597 L27.3202857,14.2835508 L27.8593747,33.0725149 L23.3427901,33.0725149 L23.8145068,14.2833597 L23.8145068,14.2833597 Z M15.6122089,14.2834251 L19.1178616,14.2832323 L19.6572115,33.0723874 L15.1404972,33.0723874 L15.6122089,14.2834251 Z" id="path10" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g filter="url(#filter-4)" id="white-house-svgrepo-com">
+            <g transform="translate(186.000000, 39.000000)">
+                <path d="M21.5,39 C22.328375,39 23,38.2805965 23,37.393292 L23,32.606708 C23,31.7194035 22.328375,31 21.5,31 C20.671625,31 20,31.7194035 20,32.606708 L20,37.393292 C20,38.2807973 20.6714375,39 21.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M15.5,39 C16.328375,39 17,38.2805965 17,37.393292 L17,32.606708 C17,31.7194035 16.328375,31 15.5,31 C14.671625,31 14,31.7194035 14,32.606708 L14,37.393292 C14,38.2807973 14.671625,39 15.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M9.5,39 C10.328375,39 11,38.2805965 11,37.393292 L11,32.606708 C11,31.7194035 10.328375,31 9.5,31 C8.671625,31 8,31.7194035 8,32.606708 L8,37.393292 C8,38.2807973 8.671625,39 9.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M21.5,28 C22.328375,28 23,27.3315293 23,26.5070449 L23,23.4929551 C23,22.6684707 22.328375,22 21.5,22 C20.671625,22 20,22.6684707 20,23.4929551 L20,26.5070449 C20,27.331716 20.6714375,28 21.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M15.5,28 C16.328375,28 17,27.3315293 17,26.5070449 L17,23.4929551 C17,22.6684707 16.328375,22 15.5,22 C14.671625,22 14,22.6684707 14,23.4929551 L14,26.5070449 C14,27.331716 14.671625,28 15.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M9.5,28 C10.328375,28 11,27.3315293 11,26.5070449 L11,23.4929551 C11,22.6684707 10.328375,22 9.5,22 C8.671625,22 8,22.6684707 8,23.4929551 L8,26.5070449 C8,27.331716 8.671625,28 9.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M80.5,39 C81.328375,39 82,38.2805965 82,37.393292 L82,32.606708 C82,31.7194035 81.328375,31 80.5,31 C79.671625,31 79,31.7194035 79,32.606708 L79,37.393292 C79,38.2807973 79.6714375,39 80.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M74.5,39 C75.328375,39 76,38.2805965 76,37.393292 L76,32.606708 C76,31.7194035 75.328375,31 74.5,31 C73.671625,31 73,31.7194035 73,32.606708 L73,37.393292 C73,38.2807973 73.671625,39 74.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M67.5,39 C68.328375,39 69,38.2805965 69,37.393292 L69,32.606708 C69,31.7194035 68.328375,31 67.5,31 C66.671625,31 66,31.7194035 66,32.606708 L66,37.393292 C66,38.2807973 66.671625,39 67.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M55.5,31 C54.671625,31 54,31.7194035 54,32.606708 L54,37.393292 C54,38.2805965 54.671625,39 55.5,39 C56.328375,39 57,38.2805965 57,37.393292 L57,32.606708 C57,31.7192027 56.328375,31 55.5,31 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M34.5,39 C35.328375,39 36,38.2805965 36,37.393292 L36,32.606708 C36,31.7194035 35.328375,31 34.5,31 C33.671625,31 33,31.7194035 33,32.606708 L33,37.393292 C33,38.2807973 33.6714375,39 34.5,39 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M80.5,28 C81.328375,28 82,27.3315293 82,26.5070449 L82,23.4929551 C82,22.6684707 81.328375,22 80.5,22 C79.671625,22 79,22.6684707 79,23.4929551 L79,26.5070449 C79,27.331716 79.6714375,28 80.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M74.5,28 C75.328375,28 76,27.3315293 76,26.5070449 L76,23.4929551 C76,22.6684707 75.328375,22 74.5,22 C73.671625,22 73,22.6684707 73,23.4929551 L73,26.5070449 C73,27.331716 73.671625,28 74.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M67.5,28 C68.328375,28 69,27.3315293 69,26.5070449 L69,23.4929551 C69,22.6684707 68.328375,22 67.5,22 C66.671625,22 66,22.6684707 66,23.4929551 L66,26.5070449 C66,27.331716 66.671625,28 67.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M55.5,22 C54.671625,22 54,22.6684707 54,23.4929551 L54,26.5070449 C54,27.3315293 54.671625,28 55.5,28 C56.328375,28 57,27.3315293 57,26.5070449 L57,23.4929551 C57,22.6684707 56.328375,22 55.5,22 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M46,23.4929551 C46,22.6684707 45.328375,22 44.5,22 C43.671625,22 43,22.6684707 43,23.4929551 L43,26.5070449 C43,27.3315293 43.671625,28 44.5,28 C45.328375,28 46,27.3315293 46,26.5070449 L46,23.4929551 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M34.5,28 C35.328375,28 36,27.3315293 36,26.5070449 L36,23.4929551 C36,22.6684707 35.328375,22 34.5,22 C33.671625,22 33,22.6684707 33,23.4929551 L33,26.5070449 C33,27.331716 33.6714375,28 34.5,28 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M88.4499462,18.7016977 C89.3059634,18.7016977 90,18.0084097 90,17.1533156 L90,10.9355938 C90,10.0804997 89.3059634,9.38721165 88.4499462,9.38721165 L65.3035737,9.38721165 L45.6603229,0.147628556 C45.2421959,-0.0492095187 44.7578041,-0.0492095187 44.3396771,0.147628556 L24.6964263,9.38721165 L1.55005382,9.38721165 C0.694036598,9.38721165 0,10.0804997 0,10.9355938 L0,17.1533156 C0,18.0084097 0.694036598,18.7016977 1.55005382,18.7016977 L1.598493,18.7016977 L1.598493,41.9065261 C0.772508073,41.9405905 0.112960172,42.6182012 0.112960172,43.4516179 C0.112960172,44.3067119 0.806996771,45 1.66301399,45 L88.3367922,45 C89.1928095,45 89.8868461,44.3067119 89.8868461,43.4516179 C89.8868461,42.6182012 89.2272982,41.9405905 88.4013132,41.9065261 L88.4013132,18.7016977 L88.4499462,18.7016977 Z M86.8998924,15.6049335 L63.5522067,15.6049335 L63.5522067,12.4839759 L64.9489989,12.4839759 C64.951324,12.4839759 64.9536491,12.484363 64.9559742,12.484363 C64.957718,12.484363 64.9594618,12.4839759 64.9613994,12.4839759 L86.8998924,12.4839759 L86.8998924,15.6049335 Z M45,31.0061097 C44.1439828,31.0061097 43.4499462,31.6993977 43.4499462,32.5544918 L43.4499462,41.9032358 L40.3982777,41.9032358 L40.3982777,18.7016977 L49.6501615,18.7016977 L49.6501615,41.9032358 L46.5500538,41.9032358 L46.5500538,32.5544918 C46.5500538,31.6992042 45.8560172,31.0061097 45,31.0061097 Z M37.2981701,41.9032358 L29.547901,41.9032358 L29.547901,18.7016977 L37.2981701,18.7016977 L37.2981701,41.9032358 Z M52.7502691,18.7016977 L60.452099,18.7016977 L60.452099,41.9032358 L52.7502691,41.9032358 L52.7502691,18.7016977 Z M29.547901,15.6049335 L29.547901,12.4839759 L60.452099,12.4839759 L60.452099,15.6049335 L29.547901,15.6049335 Z M45,3.26007013 L58.0264586,9.38721165 L31.9735414,9.38721165 L45,3.26007013 Z M26.4477933,12.4839759 L26.4477933,15.6049335 L3.41321851,15.6049335 C3.32699677,15.5900304 3.23883746,15.5807401 3.14854682,15.5807401 C3.13227126,15.5807401 3.11638321,15.5826755 3.10010764,15.5832562 L3.10010764,12.4839759 L26.4477933,12.4839759 Z M26.4477933,18.7016977 L26.4477933,41.9032358 L4.69860065,41.9032358 L4.69860065,18.7016977 L26.4477933,18.7016977 Z M85.3013994,41.9032358 L63.5522067,41.9032358 L63.5522067,18.7016977 L85.3013994,18.7016977 L85.3013994,41.9032358 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+            </g>
+        </g>
     </g>
 </svg>
